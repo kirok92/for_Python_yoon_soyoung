@@ -11,9 +11,11 @@ class Mammal :
     
 m1 = Mammal('Happy', 3)
 m2 = Mammal('Tom', 2)
+m3 = Mammal('kirok', 3)
 
 print(m1)
 print(m2)
+print(m3)
 
 print(m1.name, m1.age)  # instance의 attribute
 print(m2.name, m2.age)
